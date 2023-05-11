@@ -5,7 +5,7 @@ import Logo from "@/components/Atoms/Logo/Logo";
 
 
 const Navbar = ()=> {
-    return(<div className={'flex flex-row justify-evenly items-stretch pt-4'}>
+    return(<div className={'flex flex-row justify-evenly items-stretch pt-10'}>
             <div className={'flex flex-row'}><Logo></Logo></div>
             <div className={'flex flex-row justify-evenly'}>
                 <div className={'flex flex-row mt-4'}>
