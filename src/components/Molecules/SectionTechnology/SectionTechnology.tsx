@@ -6,7 +6,7 @@ import ImgTechnology from "@/components/Atoms/ImgTechnology/ImgTechnology";
 
 const SectionTechnology = ()=> {
     return <div className={'flex flex-row justify-evenly items-stretch'}>
-        <div>
+        <div className={'w-1/2'}>
             <TextTechnology></TextTechnology>
             <ButtonTechnology></ButtonTechnology>
         </div>
